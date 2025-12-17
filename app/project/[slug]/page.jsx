@@ -113,6 +113,7 @@ const Project = async ({ params }) => {
                 }`}
                 src={data.imageUrl}
                 alt={`${data.name} header image`}
+                title={`${data.name} header image`}
               />
             </div>
           </div>

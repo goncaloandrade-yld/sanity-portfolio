@@ -23,29 +23,8 @@
       height: 100%;
       object-fit: contain;
       border-radius: $corner-radius $corner-radius 0 0;
-
-      // mask-image: url("/mask/hero.svg"), url("/mask/hero-bottom-left-small.svg");
-      // mask-position: center, bottom left;
-      // mask-repeat: no-repeat, no-repeat;
-      // mask-size: 200%, $corner-size * 2;
-      // mask-composite: subtract;
+      border: 2em solid transparent;
     }
-
-    // .companyContainer {
-    //   position: absolute;
-    //   bottom: 0;
-    //   left: 0;
-    //   width: $corner-size;
-    //   height: $corner-size;
-    //   z-index: 2;
-
-    //   img {
-    //     width: 100%;
-    //     height: 100%;
-    //     object-fit: contain;
-    //   }
-    // }
-
     .iconButton {
       position: absolute;
       top: 0;

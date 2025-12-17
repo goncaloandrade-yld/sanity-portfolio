@@ -135,3 +135,4 @@ yarn.lock
 -sanity/yarn.lock
 -sanity/node_modules
 -sanity/.next
+.env*.local
